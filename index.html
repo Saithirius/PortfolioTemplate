@@ -3,21 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"/>
-    <meta name="description" content="Портфолио Смородинова Павла Junior Frontend-разработчика на React\Redux"/>
-    <meta name="Keywords" content="портфолио резюме frontend react" />
-    <title>Смородинов Павел</title>
+    <meta name="description" content="Портфолио"/>
+    <meta name="Keywords" content="portfolio" />
+    <title>Портфолио</title>
     <link rel="icon" href="img/pageLogo.ico" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- УДАЛИТЬ НЕ ИСПОЛЬЗУЕМЫЕ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap">
   </head>
   <body>
 
     <header>
-
+      <div class="container">
+        <span>Привет;</span>
+        <h1>Я Артем Сергеев, графический и веб-дизайнер.</h1>
+        <object class="arrow arrow_down" data="./img/downArrow.svg"></object>
+      </div>
     </header>
 
     <main>
-      
+      <div class="container main__container">
+        <div class="main__grid grid">
+          <div class="main__item div1"></div>
+          <div class="main__item div2"></div>
+          <div class="main__item div3"></div>
+          <div class="main__item div4"></div>
+          <div class="main__item div5"></div>
+          <div class="main__item div6"></div>
+          <div class="main__item div7"></div>
+          <div class="main__item div8"></div>
+          <div class="main__item div9"></div>
+          <div class="main__item div10"></div>
+        </div>
+      </div>
     </main>
+
+    <footer>
+      <div  class="container footer__container">
+        <ul class="links footer__links">
+          <li class="links_item">
+            <object data="./img/social/facebook.svg"></object>
+          </li>
+          <li class="links_item">
+            <object data="./img/social/twitter.svg"></object>
+          </li>
+          <li class="links_item">
+            <object data="./img/social/instagram.svg"></object>
+          </li>
+        </ul>
+        <p class="footer__title">Артем Сергеев — графический и веб-дизайнер</p>
+        <form class="footer__form" action="#">
+          <legend>Свяжитесь со мной:</legend>
+          <input placeholder="Имя *" type="text" autocomplete maxlength="20" required>
+          <input placeholder="Email *" type="email" autocomplete maxlength="40" required>
+          <textarea placeholder="Сообщение" rows="5" maxlength="400"></textarea>
+          <button>Отправить</button>
+        </form>
+        <object class="arrow arrow_up" data="./img/downArrow.svg"></object>
+      </div>
+    </footer>
   </body>
 </html>
