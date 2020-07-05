@@ -7,7 +7,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #333;
 }
-p {
+p,
+figure {
   margin: 0;
 }
 .container {
@@ -34,4 +35,16 @@ p {
 }
 ::-ms-input-placeholder {
   color: #222;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: #89ffd6;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #51ffc2;
 }
