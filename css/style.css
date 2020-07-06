@@ -138,7 +138,7 @@ footer .footer__container .footer__form {
   row-gap: 15px;
   margin: 30px auto 0;
 }
-footer .footer__container .footer__form legend {
+footer .footer__container .footer__form span {
   margin: 0 0 10px;
   font-family: "EB Garamond", serif;
   font-size: 22px;
