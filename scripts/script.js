@@ -1,3 +1,8 @@
+//Прелоудер
+$(window).on('load', () => {
+  $('.preloader').addClass('loaded');
+  window.setTimeout(() => {$('.preloader').css('display', 'none');}, 800);
+});
 // Анимация появления примеров
 let shownItems = 0;
 function scrollTracking(){

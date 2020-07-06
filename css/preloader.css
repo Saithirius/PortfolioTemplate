@@ -1,0 +1,19 @@
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-image: linear-gradient(19deg, #71e5ff 0%, #ce63ff 100%);
+  z-index: 1;
+}
+.loaded_hiding .preloader {
+  -webkit-transition: 0.5s opacity;
+  transition: 0.5s opacity;
+  opacity: 0;
+}
+.loaded .preloader {
+  display: none;
+}
